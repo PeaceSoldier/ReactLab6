@@ -1,0 +1,27 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    min-width: 140px;
+}
+.inputBox > * {
+    display: inline-block;
+}
+.inputBox > input, .inputBox > select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inputBox > label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
